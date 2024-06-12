@@ -1,0 +1,12 @@
+{% extends "base_generic.html" %}
+
+{% block title %}Visitor Detail{% endblock %}
+
+{% block content %}
+<h2>{{ visitor.name }}</h2>
+<p>Signed in at: {{ visitor.sign_in_time }}</p>
+<p>Signed out at: {{ visitor.sign_out_time }}</p>
+{% if not visitor.sign_out_time %}
+<a href="{% url 'sign_out_visitor' visitor.id %}">Sign Out</a>
+{% endif %}
+{% endblock %}

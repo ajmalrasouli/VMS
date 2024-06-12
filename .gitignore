@@ -1,0 +1,134 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.pyo
+*.sqlite3
+media
+staticfiles
+
+# If your build process includes running collectstatic, you should probably also
+# exclude collected static files
+
+
+# For Wagtail project with uploaded media files
+media/
+
+# Translations
+*.mo
+
+# OSX
+.DS_Store
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# MySQL
+*.pid
+*.seed
+*.old
+*.cnf
+
+# PostgreSQL
+pgdata
+
+# Django migrations
+**/migrations/*
+!**/migrations/__init__.py
+
+# Logs
+*.log
+
+# Local configuration file
+config/settings/local.py
+
+# Other config files
+*.local
+*.cfg
+*.ini
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Other editors
+*.sublime-project
+*.sublime-workspace
+
+# Anaconda
+.env/
+.conda/
+.ipynb_checkpoints/
+node_modules/
+.npm/
+
+# Pyre type checker
+.pyre/
+
+# Coverage reports
+htmlcov/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Profiling data
+*.prof
+
+# Celery beat schedule file
+celerybeat-schedule
+
+# Pytest
+.pytest_cache/

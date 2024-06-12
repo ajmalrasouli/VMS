@@ -1,0 +1,55 @@
+visitor_management
+├── db.sqlite3
+├── manage.py
+├── templates
+│   ├── base_generic.html
+│   ├── home.html
+│   ├── registration
+│   │   ├── login.html
+│   │   ├── logout.html
+│   │   ├── password_reset_complete.html
+│   │   ├── password_reset_confirm.html
+│   │   ├── password_reset_done.html
+│   │   ├── password_reset_form.html
+│   │   └── register.html
+│   └── visitors
+│       ├── register.html
+│       ├── visitor_detail.html
+│       └── visitor_list.html
+├── visitors
+│   ├── admin.py
+│   ├── apps.py
+│   ├── forms.py
+│   |
+│   ├── models.py
+│   ├── static
+│   │   ├── css
+│   │   │   └── styles.css
+│   │   ├── images
+│   │   │   └── signin-vpass.png
+│   │   └── js
+│   │       └── app.js
+│   ├── templates
+│   │   ├── base_generic.html
+│   │   ├── home.html
+│   │   ├── index.html
+│   │   ├── login.html
+│   │   ├── registration
+│   │   │   └── login.html
+│   │   ├── visitors
+│   │   │   ├── logout.html
+│   │   │   ├── register.html
+│   │   │   ├── visitor_detail.html
+│   │   │   └── visitor_list.html
+│   │   └── visitor_list.html
+│   ├── tests.py
+│   ├── urls.py
+│   ├── views.py
+│   ├── __init__.py
+    |
+└── visitor_management
+    ├── asgi.py
+    ├── settings.py
+    ├── urls.py
+    ├── wsgi.py
+    ├── __init__.py

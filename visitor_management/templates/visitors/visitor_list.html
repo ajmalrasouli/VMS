@@ -1,0 +1,14 @@
+<!-- visitor_management/templates/visitors/visitor_list.html -->
+
+{% extends "base_generic.html" %}
+
+{% block title %}Visitor List{% endblock %}
+
+{% block content %}
+  <h2>Visitor List</h2>
+  <ul>
+    {% for visitor in visitors %}
+      <li>{{ visitor.name }} - {{ visitor.sign_in_time }} - {{ visitor.sign_out_time }}</li>
+    {% endfor %}
+  </ul>
+{% endblock %}

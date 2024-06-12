@@ -1,0 +1,37 @@
+.header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: var(--body-bg);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header .left-section {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.header .filters {
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  gap: 10px;
+  align-items: center;
+}
+
+.header .right-section {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+}
+
+.header .user-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
